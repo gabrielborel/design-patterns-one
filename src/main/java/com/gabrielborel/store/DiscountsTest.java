@@ -7,8 +7,8 @@ import java.math.BigDecimal;
 
 public class DiscountsTest {
    public static void main(String[] args) {
-      Budget budget = new Budget(new BigDecimal("1000"), 2);
-      Budget secondBudget = new Budget(new BigDecimal("300"), 9);
+      Budget budget = new Budget(new BigDecimal("1000"), 6);
+      Budget secondBudget = new Budget(new BigDecimal("300"), 2);
       DiscountsCalculator discountsCalculator = new DiscountsCalculator();
 
       System.out.println(discountsCalculator.calculate(budget));

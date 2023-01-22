@@ -9,11 +9,11 @@ public class DiscountBasedOnBudgetItemsQuantity extends Discount {
       super(next);
    }
 
-   public BigDecimal calculate(Budget budget) {
-      if (budget.getItemsQty() > 5) {
-         return budget.getValue().multiply(new BigDecimal("0.1"));
-      }
+   public BigDecimal performCalculation(Budget budget) {
+      return budget.getValue().multiply(new BigDecimal("0.1"));
+   }
 
-      return this.next.calculate(budget);
+   public boolean shouldApplyDiscount(Budget budget) {
+      return budget.getItemsQty() > 5;
    }
 }

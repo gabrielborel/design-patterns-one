@@ -6,12 +6,12 @@ import java.math.BigDecimal;
 
 public class DiscountsCalculator {
    public BigDecimal calculate(Budget budget) {
-      Discount discount = new DiscountBasedOnBudgetItemsQuantity(
+      Discount discountsChain = new DiscountBasedOnBudgetItemsQuantity(
          new DiscountBasedOnBudgetValue(
             new WithoutDiscount()
          )
       );
 
-      return discount.calculate(budget);
+      return discountsChain.calculate(budget);
    }
 }

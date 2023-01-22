@@ -9,7 +9,11 @@ public class WithoutDiscount extends Discount {
       super(null);
    }
 
-   public BigDecimal calculate(Budget budget) {
+   public BigDecimal performCalculation(Budget budget) {
       return BigDecimal.ZERO;
+   }
+
+   public boolean shouldApplyDiscount(Budget budget) {
+      return true;
    }
 }
