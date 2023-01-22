@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e382b0bd-0655-4e45-b546-dfe2524a1960" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gabrielborel/store/budget/Budget.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/gabrielborel/store/tax/TaxesCalculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gabrielborel/store/Budget.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gabrielborel/store/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gabrielborel/store/TaxesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gabrielborel/store/budget/Budget.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gabrielborel/store/budget/Budget.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +18,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -65,7 +64,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674406136968</updated>
-      <workItem from="1674406138099" duration="1501000" />
+      <workItem from="1674406138099" duration="3996000" />
     </task>
     <servers />
   </component>

@@ -7,9 +7,9 @@ import com.gabrielborel.store.tax.TaxesCalculator;
 
 import java.math.BigDecimal;
 
-public class Main {
+public class TaxesTest {
    public static void main(String[] args) {
-      Budget budget = new Budget(new BigDecimal("1000"));
+      Budget budget = new Budget(new BigDecimal("1000"), 1);
       TaxesCalculator taxesCalculator = new TaxesCalculator();
 
       BigDecimal cmsTax = taxesCalculator.calculate(budget, new CMS());
